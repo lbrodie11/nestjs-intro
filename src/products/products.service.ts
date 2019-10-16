@@ -2,7 +2,7 @@ import { Injectable, NotFoundException } from "@nestjs/common";
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose'
 
-import { Product } from './product.model'
+import { Product } from './interfaces/products.interface'
 
 @Injectable()
 export class ProductsService {
